@@ -1,0 +1,35 @@
+*{
+    
+    margin: 0;
+    padding: 0;box-sizing: border-box;
+}
+body{
+    background-image:url('diceback.jpg');
+}
+#declaration{
+    font-size: 50px;
+    color: blue;
+}
+.diceimage{
+    height: 50vh;
+    width: 20%;
+    margin: 2rem;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+.button{
+    border: 8px solid black;
+    background-color: yellow;
+    height: 10rem;
+    width: 20%;
+    font-weight: bold;
+    font-size: 50px;
+    border-radius: 100px ;
+    margin: 2rem;
+}
